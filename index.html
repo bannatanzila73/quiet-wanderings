@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiet Wanderings — Tasmim's Lifestyle Journal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="template-credit">
+  This site was built by modifying a free template &mdash;
+  <a href="https://freewebsitetemplates.com/preview/healthylifetemplate/index.html" target="_blank" rel="noopener">
+    view the original "HealthyLife" template here
+  </a>
+</div>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">Quiet Wanderings</a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="moments.html">Moments</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="orb" style="width:340px; height:340px; background:#C99A93; top:-80px; left:-100px;"></div>
+  <div class="orb" style="width:280px; height:280px; background:#8A9A7E; top:40px; right:-90px; animation-delay:2s;"></div>
+  <div class="container">
+
+    <div id="welcome-banner"></div>
+
+    <p class="eyebrow">A slow little corner of the internet</p>
+    <h1>Small moments, held gently.</h1>
+    <p class="lead">
+      This is where I keep the mornings, the mountains, the sketchbooks, and the sunsets —
+      the ordinary bits of a life I'm trying to live a little slower.
+    </p>
+    <div class="hero-cta">
+      <a href="moments.html" class="btn btn-primary">Wander through my moments</a>
+      <a href="#mood" class="btn btn-outline">How am I feeling today?</a>
+    </div>
+
+    <div class="dot-divider"><span></span><span></span><span></span></div>
+  </div>
+</section>
+
+<section class="content-block" id="mood">
+  <div class="container">
+    <div class="section-title">
+      <h2>How are you feeling today?</h2>
+      <p>Pick a mood, and I'll leave you with a little something from my own days.</p>
+    </div>
+    <div class="mood-box">
+      <div id="mood-app"><!-- rendered by script.js --></div>
+    </div>
+  </div>
+</section>
+
+<section class="content-block">
+  <div class="container">
+    <div class="section-title">
+      <h2>Recent moments</h2>
+      <p>A few things I've been holding onto lately.</p>
+    </div>
+    <div class="grid">
+
+      <a href="bali-sunset.html" class="card" style="text-decoration:none;">
+        <img src="bali-sunset.jpg" alt="Watching the sunset over the mountains in Bali">
+        <div class="card-body">
+          <span class="card-tag">Travel</span>
+          <h3>That Bali sunset</h3>
+          <p>Golden hour, good food, and a view I didn't want to leave.</p>
+        </div>
+      </a>
+
+      <a href="cozy-morning.html" class="card" style="text-decoration:none;">
+        <img src="cozy-morning.jpg" alt="A cozy morning with coffee, journaling, and breakfast">
+        <div class="card-body">
+          <span class="card-tag">Slow mornings</span>
+          <h3>A quiet start</h3>
+          <p>Journal, coffee, and a bowl of something good — no rush.</p>
+        </div>
+      </a>
+
+      <a href="mountain-hike.html" class="card" style="text-decoration:none;">
+        <img src="mountain-hike.jpg" alt="Hiking with a backpack in front of snowy mountains">
+        <div class="card-body">
+          <span class="card-tag">Adventure</span>
+          <h3>Chasing the peaks</h3>
+          <p>Legs tired, mind clear — this is when I feel most like myself.</p>
+        </div>
+      </a>
+
+    </div>
+    <p style="text-align:center; margin-top:34px;">
+      <a href="moments.html" class="btn btn-outline">See all moments</a>
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <span class="footer-id">Tasmim Jannatun &middot; Student ID: 25224509</span>
+    <span>&copy; 2026 Quiet Wanderings. Built from a free template on
+      <a href="https://freewebsitetemplates.com/" target="_blank" rel="noopener">freewebsitetemplates.com</a>.
+    </span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    showWelcomeMessage();
+    renderMoodBox();
+  });
+</script>
+</body>
+</html>

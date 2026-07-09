@@ -207,6 +207,13 @@ nav.main-nav a:hover::after, nav.main-nav a.active::after{ width:100%; }
 .moment-nav a{ font-weight:600; text-decoration:none; color: var(--ink); }
 .moment-nav a:hover{ color: var(--rose-dark); }
 
+/* ---------- Contact ---------- */
+.contact-card{
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  border:1px solid var(--line); padding:36px; max-width:520px; margin:32px auto 0; text-align:center;
+}
+.contact-card a.email{ display:inline-block; margin-top:10px; font-weight:700; color: var(--rose-dark); font-size:1.05rem; }
+
 /* ---------- Footer ---------- */
 footer.site-footer{ background: var(--ink); color:#EDE6DA; margin-top:72px; padding:32px 0 24px; }
 footer.site-footer .container{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:0.86rem; }
